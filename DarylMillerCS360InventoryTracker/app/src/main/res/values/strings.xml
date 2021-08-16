@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Daryl Miller CS-360 Inventory Tracker</string>
+    <string name="InventoryTracker">Inventory Tracker</string>
+    <string name="login_error">Authentication Failed, Please Try Again</string>
+    <string name="Login">Login</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="NeedAnAccount">Need An Account?</string>
+    <string name="CreateAnAccount">Click Here To Register New User</string>
+    <string name="CreateAnAccountTitle">Create An Account</string>
+    <string name="Username_CAC">New Username</string>
+    <string name="Password_CAC">New Password</string>
+    <string name="Password_CAC_Confirm">Confirm New Password</string>
+    <string name="Create">Create New Account</string>
+    <string name="CreateAnAccount_ErrorMessage">The Username or Password Already Exists, Please Try Again</string>
+    <string name="AddInventory">Add Inventory</string>
+    <string name="Menu">Menu</string>
+    <string name="Settings">Settings</string>
+    <string name="AddNewInventory">Add New Inventory</string>
+    <string name="NewInventoryName">New Inventory Name</string>
+    <string name="NewInventoryQuantity">Enter Quantity</string>
+    <string name="Inventory">Inventory</string>
+    <string name="Delete">Delete</string>
+    <string name="NameOfNewItem">Name Of New Item</string>
+    <string name="NewInventoryItem">New Inventory Item</string>
+    <string name="InventoryDescription">Enter Item Description</string>
+    <string name="ItemQuantity">Enter Quantity</string>
+    <string name="CreateItem">Create Item</string>
+    <string name="PleaseFillOutAllFields">Please Fill Out All Fields</string>
+    <string name="Increase">Increase</string>
+    <string name="Decrease">Decrease</string>
+</resources>

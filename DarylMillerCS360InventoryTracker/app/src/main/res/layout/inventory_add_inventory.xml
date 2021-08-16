@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/New_Inventory_Title"
+        android:layout_width="306dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/NewInventoryItem"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/New_Inventory_Item_Name"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/NameOfNewItem"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/New_Inventory_Title" />
+
+    <EditText
+        android:id="@+id/New_Inventory_Description"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/InventoryDescription"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/New_Inventory_Item_Name" />
+
+    <EditText
+        android:id="@+id/New_Inventory_Quantity"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/NewInventoryQuantity"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/New_Inventory_Description" />
+
+    <TextView
+        android:id="@+id/New_Inventory_Error"
+        android:layout_width="194dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/PleaseFillOutAllFields"
+        android:textColor="@color/design_default_color_error"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/New_Inventory_Quantity" />
+
+    <Button
+        android:id="@+id/New_Inventory_Create"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/CreateItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/New_Inventory_Error" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
